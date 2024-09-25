@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border: none; /* Eliminar borde del iframe */
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenidos a Cahu</h1>
+    <p>Mira nuestro video a continuación:</p>
+    <iframe src="https://drive.google.com/file/d/1mrnDs_VazT6Tee1t6NdtD0h6lfgw_GM_/preview" allowfullscreen></iframe>
+</body>
+</html>
